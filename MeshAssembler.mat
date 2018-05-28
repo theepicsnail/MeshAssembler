@@ -7,8 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: MeshAssembler
-  m_Shader: {fileID: 4800000, guid: b3125a8e24d2b7a4faa4115962e49d42, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: dd8259d08d4002647b3c571fe0ab32f9, type: 3}
+  m_ShaderKeywords: SCALE_PROPORTIONAL _ALPHAPREMULTIPLY_ON _DEBUGGING _DEBUGGING_ON
+    _SCALE_PROPORTIONAL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -39,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 64e7766099ad46747a07014e44d0aea1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -55,26 +56,42 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - ALPHA: 0
+    - DEBUGGING: 0
+    - SCALE_PROPORTIONAL: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DEBUGGING: 0
     - _DebugValue: 0
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
-    - _Invisible: 6.1
+    - _INVISIBLE: 5
+    - _Invisible: 3
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 3
     - _Movement: 0.24
+    - _NOISE: 100
+    - _NOISE_SCALE: 1
+    - _NOISE_VARIANCE: 0.25
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _SCALE: 1
+    - _SCALE_PROPORTIONAL: 1
+    - _ScaleX: 1
+    - _ScaleY: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TIME_DISTANCE: 0
+    - _TIME_SPEED: 1
+    - _TIME_VARIANCE: 0.5
     - _UVSec: 0
-    - _Visible: 1.5
-    - _ZWrite: 1
+    - _VISIBLE: 3
+    - _Visible: 1
+    - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

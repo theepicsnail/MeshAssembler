@@ -22,11 +22,9 @@ Shader "Snail/Shaders/MeshAssembler" {
     SubShader
     {
         Tags { "Queue"="Transparent" "RenderType"="Transparent"  }
-        Cull off
  
         Pass
         {
-			ZWrite On
 			Blend SrcAlpha OneMinusSrcAlpha
             CGPROGRAM
             #pragma vertex vert
